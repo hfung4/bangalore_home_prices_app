@@ -33,8 +33,8 @@ function onClickedEstimatePrice() {
     var estPrice = document.getElementById("uiEstimatedPrice");
 
     //endpoint for price prediction
-    var url = "http://127.0.0.1:5000/predict_home_price"; //NOT using nginx
-    //var url = "/api/predict_home_price"; // using nginx
+    var url = "http://127.0.0.1:5000/"; //NOT using nginx
+    //var url = "/api/"; // using nginx
 
     //make post call
     $.post(url, {
